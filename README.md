@@ -12,36 +12,53 @@ O objetivo dessa aplicação é dispor dos dados obtidos da API do Rick e Morty(
 
 # Packages
   * widgets
+    
     *flutter_staggered_grid_view: ^0.6.2 (https://pub.dev/packages/flutter_staggered_grid_view).
+
     *cached_network_image: ^3.2.3 (https://pub.dev/packages/cached_network_image).
+
     *loading_animation_widget: ^1.2.0+4 (https://pub.dev/packages/loading_animation_widget).
 
   * icons
+  
    *cupertino_icons: ^1.0.2 (https://pub.dev/packages/cupertino_icons)
+   
    *font_awesome_flutter: ^10.5.0 (https://pub.dev/packages/font_awesome_flutter)
 
   * HTTP
+  
    *dio: ^5.2.1+1 (https://pub.dev/packages/dio)
 
   * Injection and state manager
+  
    *get_it: ^7.6.0 (https://pub.dev/packages/get_it)
+   
    *mobx: ^2.2.0 (https://pub.dev/packages?q=mobx)
+   
    *flutter_mobx: ^2.0.6+5 (https://pub.dev/packages/flutter_mobx)
 
   * router
-    *go_router: ^9.0.3 (https://pub.dev/packages/go_router)
+
+     *go_router: ^9.0.3 (https://pub.dev/packages/go_router)
 
   * local storage
+  
    *shared_preferences: ^2.2.0 (https://pub.dev/packages/shared_preferences)
+  
    *sqflite: ^2.2.8+4 (https://pub.dev/packages/sqflite)
 
   * utils
-    *logger: ^1.4.0 (https://pub.dev/packages/logger)
-    *path: ^1.8.3 (https://pub.dev/packages/path)
+
+     *logger: ^1.4.0 (https://pub.dev/packages/logger)
+
+     *path: ^1.8.3 (https://pub.dev/packages/path)
+
     *connectivity_plus: ^4.0.1 (https://pub.dev/packages/connectivity_plus)
 
   * dev_dependencies
+  
    *build_runner: ^2.4.6 (https://pub.dev/packages?q=build_runner)
+  
    *mobx_codegen: ^2.3.0 (https://pub.dev/packages/mobx_codegen)
 
 # Arquitetura
