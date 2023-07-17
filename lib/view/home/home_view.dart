@@ -5,15 +5,15 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get_it/get_it.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
-import 'package:rick_and_morty/business/store/character_store.dart';
-import 'package:rick_and_morty/core/config/theme/theme.dart';
-import 'package:rick_and_morty/core/utils/responsive_screen_utils.dart';
-import 'package:rick_and_morty/views/home/store/home_store.dart';
-import 'package:rick_and_morty/views/home/widgets/character_card/empty_character_card.dart';
-import 'package:rick_and_morty/views/home/widgets/character_dialog.dart';
-import 'package:rick_and_morty/views/home/widgets/filter_button.dart';
-import 'package:rick_and_morty/views/home/widgets/paginate_dropdown.dart';
+import 'package:rick_and_morty_database/core/utils/responsive_screen_utils.dart';
+import 'package:rick_and_morty_database/view/home/store/home_store.dart';
+import 'package:rick_and_morty_database/view/home/widgets/character_card/empty_character_card.dart';
+import 'package:rick_and_morty_database/view/home/widgets/character_dialog.dart';
+import 'package:rick_and_morty_database/view/home/widgets/filter_button.dart';
+import 'package:rick_and_morty_database/view/home/widgets/paginate_dropdown.dart';
 
+import '../../business/store/character_store.dart';
+import '../../core/config/theme/theme.dart';
 import '../widgets/text_and_icon.dart';
 
 class HomeView extends StatelessWidget {

@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get_it/get_it.dart';
-import 'package:rick_and_morty/business/store/character_store.dart';
-import 'package:rick_and_morty/core/utils/responsive_screen_utils.dart';
-import 'package:rick_and_morty/core/utils/ui_padding.dart';
-import 'package:rick_and_morty/views/widgets/borded_text_field.dart';
-import 'package:rick_and_morty/core/library/strings.dart' as strings;
+import 'package:rick_and_morty_database/core/library/strings.dart' as strings;
+import 'package:rick_and_morty_database/core/utils/responsive_screen_utils.dart';
+import 'package:rick_and_morty_database/core/utils/ui_padding.dart';
 
 import '../../../business/store/character_store.dart';
 import '../../../core/config/theme/theme.dart';
+import '../../widgets/borded_text_field.dart';
 
 class FilterDialog extends StatelessWidget {
   FilterDialog({super.key});
