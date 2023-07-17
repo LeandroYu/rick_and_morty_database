@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'core/router/router_base_config.dart';
+import 'core/config/router/router_base_config.dart';
+import 'core/injection/injection.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
+  Injection().inject();
   runApp(const MyApp());
 }
 

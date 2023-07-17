@@ -1,0 +1,3 @@
+class Injection {
+  void inject() {}
+}
