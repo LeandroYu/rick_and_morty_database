@@ -80,3 +80,11 @@ Para rodar o projeto deve seguir alguns passos:
 
 5- execute o projeto.
 
+# Makefile
+
+Para maior praticidade durante o desenvolvimento do projeto foi criado um arquivo makefile para maior comodidade, contendo os seguintes comandos:
+
+* `make reset` para limpar e reinstalar todas as dependencias do projeto.
+* `make build_runner` para rodar o build_runner contendo o seguinte comando: `flutter pub run build_runner build --delete-conflicting-outputs`.
+* `make build_runner_clean` para limpar o build_runner.
+* `make clean` para limpar o projeto.
