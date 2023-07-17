@@ -71,8 +71,12 @@ As Paginas foram organizadas da seguinte maneira:
 Para rodar o projeto deve seguir alguns passos:
 
 1- no terminal utilizando o comando `cd` navegue até a pasta que deseja clonar o projeto.
+
 2- clone o projeto utilizando o comando `git clone https://github.com/LeandroYu/rick_and_morty_database.git`.
+
 3- abra o seu editor de código favorito (Android Studio, VsCode, etc.).
+
 4- no terminal do editor de código utilize o comando `make reset` para limpar e gerar as dependencias necessarias.
+
 5- execute o projeto.
 
