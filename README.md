@@ -1,7 +1,11 @@
 # rick_and_morty_database
 
 Para esse projeto foi criado uma aplicação em Dart/Flutter.
-O objetivo dessa aplicação é dispor dos dados obtidos da API do Rick e Morty(https://rickandmortyapi.com/). 
+O objetivo dessa aplicação é dispor dos dados obtidos da API do Rick e Morty(https://rickandmortyapi.com/).
+Para a execução do projeto foi utilizado:
+  * Flutter 3.10.5.
+  * Dart 3.0.5
+  * Executado em um emulador iOS -> iPhone 14 Pro Max.
 
 # Funções presentes no app: 
   * Visualizar na página inicial, uma lista de 20 personagens incialmente, contendo foto, nome e status, com o tamanho da paginação sendo dinamica, podendo ser selecionando, 5, 10 ou 20 itens por vez.
