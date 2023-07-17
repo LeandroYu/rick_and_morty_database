@@ -44,4 +44,20 @@ abstract class CharacterStoreBase with Store {
   Future<void> setAllCharacterIntoDatabase() async {
     await _characterUsecase.setAllCharacterIntoDatabase();
   }
+
+  Future<void> getCharactersFiltered(String? name, String? status, String? species, String? type, String? gender, String? origin, String? location) async {
+    final characters = await _characterUsecase.getFilteredCharacters(name, status, species, type, gender, origin, location);
+    setCharacters(characters);
+  }
+
+  List<Character> currentPageCharacters() {
+    return characters.skip(currentPage * itemsPerPage).take(itemsPerPage).toList();
+  }
+
+  @action
+  void goToPage(int page) {
+    if (page >= 0 && page < totalPages) {
+      currentPage = page;
+    }
+  }
 }

@@ -27,4 +27,10 @@ class CharacterUsecase {
       }
     }
   }
+
+  Future<List<Character>> getFilteredCharacters(
+      String? name, String? status, String? species, String? type, String? gender, String? origin, String? location) async {
+    return await CharacterDatabase()
+        .getCharactersFiltered(name: name, status: status, species: species, type: type, gender: gender, origin: origin, location: location);
+  }
 }
